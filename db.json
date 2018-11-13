@@ -26,6 +26,15 @@
       "personId": 2,
       "extraPersonId": null,
       "lastName": "Baules"
+    },
+    {
+      "id": 3,
+      "code": "PATRICK50SPACE",
+      "type": 1,
+      "status": "used",
+      "personId": 3,
+      "extraPersonId": null,
+      "lastName": "van Haules"
     }
   ],
   "persons": [
@@ -52,6 +61,14 @@
       "company": "Haha Production",
       "position": "Janitor",
       "location": "Vaslui"
+    },
+    {
+      "id": 3,
+      "firstName": "Baules",
+      "lastName": "van Haules",
+      "company": "Dodo von Bobo",
+      "position": "Cioflitor",
+      "location": "Costa Rica"
     }
   ],
   "total": {
