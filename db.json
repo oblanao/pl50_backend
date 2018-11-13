@@ -6,7 +6,8 @@
       "type": 1,
       "status": "available",
       "personId": null,
-      "extraPersonId": null
+      "extraPersonId": null,
+      "lastName": null
     },
     {
       "id": 1,
@@ -14,7 +15,8 @@
       "type": 1,
       "status": "used",
       "personId": 0,
-      "extraPersonId": 1
+      "extraPersonId": 1,
+      "lastName": "Leclair"
     },
     {
       "id": 2,
@@ -22,7 +24,8 @@
       "type": 1,
       "status": "used",
       "personId": 2,
-      "extraPersonId": null
+      "extraPersonId": null,
+      "lastName": "Baules"
     }
   ],
   "persons": [
