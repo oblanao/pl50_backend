@@ -1,0 +1,57 @@
+{
+  "codes": [
+    {
+      "id": 0,
+      "code":"PATRICK50AVAILABLE",
+      "type": 1,
+      "status": "available",
+      "personId": null,
+      "extraPersonId": null
+    },
+    {
+      "id": 1,
+      "code": "PATRICK50USED2",
+      "type": 1,
+      "status": "used",
+      "personId": 0,
+      "extraPersonId": 1
+    },
+    {
+      "id": 2,
+      "code": "PATRICK50USED",
+      "type": 1,
+      "status": "used",
+      "personId": 2,
+      "extraPersonId": null
+    }
+  ],
+  "persons": [
+    {
+      "id": 0,
+      "firstName": "Patrick",
+      "lastName": "Leclair",
+      "company": "Fast Solutions",
+      "position": "CEO",
+      "location": "Antwerp"
+    },
+    {
+      "id": 1,
+      "firstName": "Mimi",
+      "lastName": "Sunca",
+      "company": "Pupu Mumu",
+      "position": "CFO",
+      "location": "Bruxelles"
+    },
+    {
+      "id": 2,
+      "firstName": "Haules",
+      "lastName": "Baules",
+      "company": "Haha Production",
+      "position": "Janitor",
+      "location": "Vaslui"
+    }
+  ],
+  "total": {
+    "persons": 3
+  }
+}
