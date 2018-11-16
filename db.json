@@ -1936,8 +1936,5 @@
 			"lastName": "Chess Coders"
 		}
 	],
-	"persons": [],
-	"total": {
-		"persons": 0
-	}
+	"persons": []
 }
