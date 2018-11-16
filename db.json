@@ -1925,6 +1925,15 @@
 			"personId": null,
 			"extraPersonId": null,
 			"lastName": null
+		},
+		{
+			"id": 214,
+			"code": "PATRICK50CHESS",
+			"type": 0,
+			"status": "used",
+			"personId": null,
+			"extraPersonId": null,
+			"lastName": "Chess Coders"
 		}
 	],
 	"persons": [],
