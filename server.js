@@ -6,7 +6,7 @@ const server = jsonServer.create()
 const router = jsonServer.router('db.json')
 const middlewares = jsonServer.defaults()
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3002;
 
 server.use(middlewares)
 
@@ -20,6 +20,21 @@ server.get('/totalPersons', (req, res) => {
       totalPersons
     }).end()
   })
+})
+
+server.get('/adminlogin', (req, res) => {
+  console.log('wht?')
+  const username = req.query.username;
+  const password = req.query.password;
+  if (username.toLowerCase()==='admin'&&password==='qwertyqwerty') {
+    res.send({
+      correct: true
+    })
+  } else {
+    res.send({
+      correct: false
+    })
+  }
 })
 
 server.use(router)
